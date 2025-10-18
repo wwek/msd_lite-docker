@@ -11,7 +11,7 @@ on:
 
 env:
   IMAGE_NAME: msd_lite
-  UPSTREAM_OWNER: rozhuk-im
+  UPSTREAM_OWNER: wwek
   UPSTREAM_REPO: msd_lite
   UPSTREAM_BRANCH: master
 
