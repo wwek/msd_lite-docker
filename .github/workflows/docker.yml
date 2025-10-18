@@ -59,8 +59,8 @@ jobs:
           else
             echo "SKIP=false" >> $GITHUB_ENV
             echo "$remote" > sha.txt
-            git config --global user.name "djylb"
-            git config --global user.email "duan@d-jy.net"
+            git config --global user.name "wwek"
+            git config --global user.email "licoolgo@gmail.com"
             git add sha.txt
             if git diff --cached --quiet; then
               echo "No changes detected, skipping commit."
